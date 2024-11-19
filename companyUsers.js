@@ -11,7 +11,7 @@ function companyUsersArr(input) {
         companyUsers[comp] = [];
         companyUsers[comp].push(userID);
       } else {
-        if (!companyUsers[comp].includes(userID))
+        if (!companyUsers[comp].includes(userID));
           companyUsers[comp].push(userID);
       }
     }
